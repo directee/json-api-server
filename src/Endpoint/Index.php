@@ -125,9 +125,9 @@ class Index
         }
 
         if (isset($queryParams['filter'])) {
-            foreach ($queryParams['filter'] as $k => &$v) {
-                $v = $v === null ? '' : $v;
-            }
+            //foreach ($queryParams['filter'] as $k => &$v) {
+            //    $v = $v === null ? '' : $v;
+            //}
         }
 
         ksort($queryParams);
